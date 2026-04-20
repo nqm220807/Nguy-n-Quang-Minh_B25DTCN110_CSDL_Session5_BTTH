@@ -82,6 +82,3 @@ WHERE
     )
 ORDER BY total_amount DESC
 LIMIT 20 OFFSET 40;
-
-CREATE INDEX idx_orders_filter 
-ON Orders (total_amount, status, user_id);
